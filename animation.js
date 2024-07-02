@@ -272,14 +272,7 @@
       this.seed = new Seed(this, point, scale, color);
     }
 
-    initFooter() {
-      const {
-        width = this.width,
-        height = 5,
-        speed = 2,
-      } = this.opt.footer || {};
-      this.footer = new Footer(this, width, height, speed);
-    }
+    
 
     initBranch() {
       const branches = this.opt.branch || [];
