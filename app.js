@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     },
     footer: {
       width: 1200,
-      height: 5,
+      height: 0,
       speed: 10,
     },
   };
