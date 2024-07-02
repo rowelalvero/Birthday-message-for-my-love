@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       height: 650,
     },
     footer: {
-      width: 0,
+      width: 120,
       height: 0,
       speed: 10,
     },
