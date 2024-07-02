@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       height: 650,
     },
     footer: {
-      width: 1200,
+      width: 0,
       height: 0,
       speed: 10,
     },
@@ -191,10 +191,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   const moveAnimate = async () => {
     tree.snapshot("p1", 240, 0, 610, 680);
     while (tree.move("p1", 500, 0)) {
-      
+      footer.draw();
       await sleep(10);
     }
-    
+    footer.draw();
     tree.snapshot("p2", 500, 0, 610, 680);
 
     // Assuming canvas is a plain DOM element and not a jQuery object.
