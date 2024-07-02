@@ -79,11 +79,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       width: 1080,
       height: 650,
     },
-    footer: {
-      width: 1200,
-      height: 5,
-      speed: 10,
-    },
+  
   };
 
   const tree = new Tree(canvas, width, height, opts);
